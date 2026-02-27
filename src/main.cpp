@@ -16,6 +16,9 @@
  // TODO 2:
  // Create variable to store touch state
 
+int touchPin = 2;     // TTP223 OUT pin connected to pin 2
+int ledPin = 9;
+
 void setup() {
 
     // TODO 3:
