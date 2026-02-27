@@ -20,7 +20,8 @@ int touchPin = 2;     // TTP223 OUT pin connected to pin 2
 int ledPin = 9;
 
 void setup() {
-
+    pinMode(touchPin, INPUT);
+    pinMode(ledPin, OUTPUT);
     // TODO 3:
     // Initialize Serial communication (9600 baud rate)
 
