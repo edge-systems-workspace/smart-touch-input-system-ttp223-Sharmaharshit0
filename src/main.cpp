@@ -46,5 +46,10 @@ void loop() {
     // TODO 8:
     // Add small delay (200–500ms)
     int touchState = digitalRead(touchPin);
+    if (touchState == HIGH) {
+        digitalWrite(ledPin, HIGH);   // LED ON when touched
+    } else {
+        digitalWrite(ledPin, LOW);    // LED OFF
+    }
 
 }
